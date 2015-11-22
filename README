@@ -1,0 +1,16 @@
+Query and scrape the NYC Water Payment history website.
+
+author :  Luigi Patruno
+date : Nov 21-22, 2015
+
+3rd party packages used:
+	mechanize - to submit HTML forms
+	BeautifulSoup - to parse HTML response
+	pandas - organize payment data
+
+Text file:
+    - account_numbers.txt: contains block, lot, name, address and account number (ALL PUBLIC DATA)
+    - payments.txt : contains all info in account_numbers.txt and a payment history (ALL PUBLIC DATA)
+
+These data are available at:
+http://nycserv.nyc.gov/NYCServWeb/WaterChargeHistorySearch.jsp
